@@ -12,10 +12,5 @@ function checkingForFlavor(userInfor) {
     flavorObj[items] = (flavorObj[items] || 0) + 1;
   }
   return flavorObj;
-
-  //   for (let i = 0; i < userInfor.length; i++) {
-  //     flavorObj[userInfor[i]] = flavorObj[userInfor[i]] + 1 || 1;
-  //   }
-  //   return flavorObj;
 }
 console.table(checkingForFlavor(userInfor));
